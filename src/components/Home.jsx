@@ -13,6 +13,7 @@ const Home = () => {
     function createPaste() {
         const paste = {
             title : title,
+            
             content : value,
              _id : pasteId ||
              Date.now().toString(36),
