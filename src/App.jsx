@@ -37,7 +37,7 @@ const router = createBrowserRouter(
 
 function App() {
   return (
-   <div>
+   <div className='bg-[#212121] min-h-[100vh]'>
    <RouterProvider router={router}/>
    </div>
   )
